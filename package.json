@@ -1,0 +1,27 @@
+{
+  "name": "@pinkpixel/datetime-mcp",
+  "version": "0.1.0",
+  "description": "A simple MCP server that provides LLMs with the current date and time context",
+  "private": false,
+  "type": "module",
+  "bin": {
+    "datetime-mcp": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "@pinkpixel/datetime-mcp": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
