@@ -1,5 +1,7 @@
 # @pinkpixel/datetime-mcp MCP Server ⏰
 
+[![smithery badge](https://smithery.ai/badge/@pinkpixel-dev/datetime-mcp)](https://smithery.ai/server/@pinkpixel-dev/datetime-mcp)
+
 A simple MCP server that provides LLMs with the current date and time context based on the server's system clock.
 
 This is a TypeScript-based MCP server that demonstrates a basic tool implementation for the Model Context Protocol.
@@ -13,6 +15,14 @@ This is a TypeScript-based MCP server that demonstrates a basic tool implementat
 ## Installation 🚀
 
 There are two ways to install and configure this MCP server:
+
+### Installing via Smithery
+
+To install datetime-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@pinkpixel-dev/datetime-mcp):
+
+```bash
+npx -y @smithery/cli install @pinkpixel-dev/datetime-mcp --client claude
+```
 
 ### 1. Installation from NPM (Recommended)
 
