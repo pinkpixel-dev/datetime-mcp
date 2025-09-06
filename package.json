@@ -1,6 +1,6 @@
 {
   "name": "@pinkpixel/datetime-mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A simple MCP server that provides LLMs with the current date and time context",
   "private": false,
   "type": "module",
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "0.6.0",
-    "@pinkpixel/datetime-mcp": "^0.1.0"
+    "date-fns-tz": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.24",
