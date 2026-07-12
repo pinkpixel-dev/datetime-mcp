@@ -123,3 +123,9 @@ public/build/
 
 # Windows thumbnail cache files
 Thumbs.db
+
+# Other
+ERRORS.md
+MEMORY.md
+OVERVIEW.md
+ROADMAP.md
