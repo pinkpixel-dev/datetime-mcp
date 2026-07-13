@@ -1,12 +1,14 @@
-# @pinkpixel/datetime-mcp MCP Server ⏰
+<div align="center">
+  <img src="./icon.png" alt="Date Time MCP Icon" width="300"/>
+</div>
 
-[![smithery badge](https://smithery.ai/badge/@pinkpixel-dev/datetime-mcp)](https://smithery.ai/server/@pinkpixel-dev/datetime-mcp)
+# Date & Time MCP Server
 
 A powerful MCP server that provides LLMs with current date and time context with comprehensive timezone support. Get the current time in any timezone, with configurable defaults and intelligent fallbacks.
 
 This is a TypeScript-based MCP server built with the Model Context Protocol that demonstrates timezone-aware datetime functionality.
 
-## Features ✨
+## Features
 
 ### Tools
 - **`get_current_datetime`**: Returns the current date and time with full timezone support
@@ -16,7 +18,7 @@ This is a TypeScript-based MCP server built with the Model Context Protocol that
   - **Robust validation**: Validates timezone identifiers and provides helpful error messages
   - **ISO-compatible format**: Returns properly formatted datetime strings with timezone information
 
-## Installation 🚀
+## Installation
 
 There are two ways to install and configure this MCP server:
 
@@ -202,4 +204,4 @@ The Inspector will provide a URL to access debugging tools in your browser.
 
 ## License 📄
 
-MIT License - Copyright (c) 2025 Pink Pixel
+Apache 2.0 License - Copyright (c) 2025 Pink Pixel
